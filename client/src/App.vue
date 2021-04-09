@@ -141,7 +141,7 @@
                 <img
                   src="./assets/spectrogram.png"
                   alt="Spectrogram"
-                  style="max-width: 400px; margin-bottom: 2em;"
+                  style="max-width: 400px; margin-bottom: 2em"
                 />
               </md-card-media>
             </div>
@@ -176,7 +176,7 @@
                 <img
                   src="./assets/confusion.png"
                   alt="Confusion Matrix"
-                  style="max-width: 400px; margin-bottom: 2em;"
+                  style="max-width: 400px; margin-bottom: 2em"
                 />
               </md-card-media>
             </div>
@@ -188,14 +188,8 @@
           </md-card-header>
 
           <md-card-content>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
-            itaque ea, nostrum odio. Dolores, sed accusantium quasi non.
+            Couldn't finish this, sorry.
           </md-card-content>
-
-          <md-card-actions>
-            <md-button>Action</md-button>
-            <md-button>Action</md-button>
-          </md-card-actions>
         </md-card>
       </md-app-content>
     </md-app>
@@ -210,12 +204,12 @@ import "vue-material/dist/theme/default-dark.css";
 
 Vue.use(VueMaterial);
 
-//import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: "App",
   components: {
     //HelloWorld
+  },
+  methods: {
   },
 };
 </script>
