@@ -30,10 +30,11 @@ The Vue.js front-end is a demo website that explains the project in detail. It c
 To run the website, use the following commands from the root directory of the project:
 ```bash
 cd client
+npm install
 npm run serve
 ```
 
-It will then be running on `http://localhost:8080/`.
+It will then be running on `http://localhost:8080/`. Only run `npm install` if it is your first time running the project, as it installs the necessary dependencies such as Vue.js.
 
 A demo will eventually be added in the "Demo" section to communicate with the back-end by sending it some audio data, and receiving a prediction made by the ASR model.
 
